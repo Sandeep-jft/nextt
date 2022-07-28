@@ -11,6 +11,29 @@ a {
   text-decoration: none;
 }
 
+.nav-menu{
+  display: flex;
+  width:40%;
+  margin:10px auto;
+  flex-direction: row;
+  border-radius: 15px;
+  border:1px solid white;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.nav-menu li{
+  padding:10px;
+  height:40px;
+  font-size: 25px;
+  color:red;
+  background-color: blue;
+}
+
+.nav-menu li:hover{
+  color:white
+}
+
 * {
   box-sizing: border-box;
 }
